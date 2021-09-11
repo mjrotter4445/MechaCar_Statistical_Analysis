@@ -62,7 +62,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 We'll start with **ALL LOTS**.  The current manufacturing data meet this design specification for all manufacturing lots in total. According to the results (Figure 2) shows that variance is 62.29 PSI, that is within requirements of not exceeding variance 100 PSI.
 
 <p align="center">
-  <img width="200" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%202%20Summ%20Stats%20Susp%20Coils%20ALL%20Lots.jpg">
+  <img width="400" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%202%20Summ%20Stats%20Susp%20Coils%20ALL%20Lots.jpg">
 </p>
 <p align="center">
 Figure 2 - Summary Statistics on Suspension Coils for ALL Lots
