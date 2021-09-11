@@ -12,7 +12,7 @@ For this project we are performing statistical testing in programming language R
 -  Languages: **R**
 
 <p align="center">
-  <img width="400" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/heading%20scientist%20graphic.jpg">
+  <img width="500" height=250" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/heading%20scientist%20graphic.jpg">
 </p>
  
 
