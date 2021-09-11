@@ -96,7 +96,7 @@ Figure 4 - T-Test All Lots - Total
 </p>
 
 <p align="center">
-  <img width="400" height=500" src="fig 5">
+  <img width="300" height=500" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/figure%205%20all%20indiv%203%20lots%20.jpg">
 </p>
 <p align="center">
 Figure 5 - T-Test Lots - Individual 
