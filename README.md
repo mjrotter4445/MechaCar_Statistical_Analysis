@@ -47,7 +47,7 @@ Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much small
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its r-squared and p-value. According to our results (Figure 1) r-squared is 0.7149 and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
 <p align="center">
-  <img width="200" height=100" src="fig 1">
+  <img width="200" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%201%20Linear%20Regress%20Results.jpg">
 </p>
 <p align="center">
 Figure 1 - Linear Regression Results
