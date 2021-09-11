@@ -71,7 +71,7 @@ Figure 2 - Summary Statistics on Suspension Coils for ALL Lots
 Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding variance 100 PSI. 
 Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceed the requirements variance of 100 PSI.
 <p align="center">
-  <img width="500" height=250" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%203%20summ%20stats%20Susp%20Coils%20for%20each%20lot%20individually.jpg">
+  <img width="500" height=225" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%203%20summ%20stats%20Susp%20Coils%20for%20each%20lot%20individually.jpg">
 </p>
 <p align="center">
 Figure 3 - Summary Statistics on Suspension Coils for Each Lot Individually 1, 2, & 3 ABOVE
@@ -89,7 +89,7 @@ Ha: There is statistical difference between the suspension coil data set mean an
 In order to reject or fail to reject our null hypothesis we have to look at the **p-value** that determines if there is a statistical difference between the observed sample mean and its presumed population mean. According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .61, and for lot 3 = 0.04. In all cases **p-value** is above the assumed significance level of 0.05. Therefore, there is not enough evidence and we fail to reject the null hypothesis, meaning that the two means are not statistically different.
 
 <p align="center">
-  <img width="300" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
+  <img width="600" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
 </p>
 <p align="center">
 Figure 4 - T-Test All Lots - Total
