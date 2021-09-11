@@ -20,7 +20,7 @@ For this project we are performing statistical testing in programming language R
 ## Linear Regression to Predict MPG ## 
 
 ### **The Statistical question** ### 
-There are mpg test results for 50 prototype MechaCars.   Multiple design specifications to identify ideal vehicle performance such as vehicle length, vehicle weight, spoler angel, drivetrain, and ground clearance, were collected for each vehicle.    
+There are mpg test results for 50 prototype MechaCars.   Multiple design specifications to identify ideal vehicle performance such as vehicle length, vehicle weight, spoiler angel, drivetrain, and ground clearance, were collected for each vehicle.    
 With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vechile length in our case) in the dataset predict the mpg of MechaCar prototypes.  What are the relationships between variables and mpg of MechCar prototypes?  
 
 ### **Null Hypothesis and alternative hypothesis for linear regression** ###
