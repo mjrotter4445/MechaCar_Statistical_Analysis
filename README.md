@@ -141,16 +141,12 @@ Ideally, you would collect data for comparable models across all major manufactu
 -  Resale Value: Independent Variable
 -  Average Annual Cost of ownership (Maintenance): Independent Variable
 
-Hypothesis: Null and Alternative
-After determining which factors are key (and data is available for or can be collected) for the MechaCar's genre:
-
 Below is a Potential Hypothesis:
 
 **Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.**
 **Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.**
 
-Statistical Tests
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be more than one of them or all of them)
+Statistical Tests suited best for this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be more than one of them or all of them).   This is where I would start with the research and see where it leads us.    
 
 
 
