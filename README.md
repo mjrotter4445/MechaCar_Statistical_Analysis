@@ -82,13 +82,23 @@ Figure 3 - Summary Statistics on Suspension Coils for Each Lot Individually 1, 2
 # Deliverable #3 - 
 ## T-Tests on Suspension Coils ##
 
-Below we will perform one-sample t-test, that is used to **determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI**. With the t-test, we first define the following hypothesis:
+Below we will perform one-sample t-test, that is used to **determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI**. 
 
-H0: There is no statistical difference between the suspension coil data set mean and its presumed population mean of 1,500 PSI.
+Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the true mean is 1498.78.  This combined with a **p-value of .06**, which is higher thaan the common significance level of 0.05m there is NOT enough evidence to support rejecting the null hypothese.    In other words, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.   
 
-Ha: There is statistical difference between the suspension coil data set mean and its presumed population mean of 1,500 PSI.
 
-In order to reject or fail to reject our null hypothesis we have to look at the **p-value** that determines if there is a statistical difference between the observed sample mean and its presumed population mean. According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .60, and for lot 3 = 0.04. In only 2 cases **p-value** is above the assumed significance level of 0.05. Therefore, there is evidence to reject the null hypothesis, meaning that the two means are significantly statistically different.   
+<p align="center">
+  <img width="650" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
+</p>
+<p align="center">
+Figure 4 - T-Test All Lots - Total
+</p>
+
+Next, we look at the indivdual lots.    
+
+In order to reject or fail to reject our null hypothesis we have to look at the **p-value** that determines if there is a statistical difference between the observed sample mean and its presumed population mean. According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .60, and for lot 3 = 0.04. In only 2 cases **p-value** is above the assumed significance level of 0.05. 
+
+
 
 <p align="center">
   <img width="650" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
