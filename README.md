@@ -154,5 +154,6 @@ Statistical Tests suited best for this task would be a multiple linear regressio
 </p>
 
 
-
-
+Graphics Sources:  
+Data Scientist, - Analytics Vidhya Blog site -  https://www.analyticsvidhya.com/blog/2020/12/quick-guide-to-perform-hypothesis-testing/   
+Gears and Scientists -  KindPNG.com site  -  https://www.kindpng.com/imgv/TxbwxJ_vector-gear-wheels-gears-free-vector-hd-png/
