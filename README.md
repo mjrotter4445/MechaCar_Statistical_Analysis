@@ -51,7 +51,9 @@ Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much small
 
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared value and p-value**. According to our results (below in
-Figure 1) **r-squared is 0.7149** (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model DOES effectively predict mpg of MechaCar prototypes (from Module 15.7.2).  Also,  the 3 *** indicator to the right of Intercept is an indicator that more than one independent variable impacts the variable of mpg.  
+Figure 1) **r-squared is 0.7149** (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model DOES 
+effectively predict mpg of MechaCar prototypes (from Module 15.7.2).  Also,  the 3 *** indicator to the right, on the Intercept is an significance indicator that more than one 
+independent variable impacts the variable of mpg.  
 <p align="center">
   <img width="550" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%201%20Linear%20Regress%20Results.jpg">
 </p>
@@ -65,7 +67,8 @@ Figure 1 - Linear Regression Results
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 **Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
-We'll start with **ALL LOTS**.  The current manufacturing data meet this design specification for all manufacturing lots in total. According to the results (Figure 2) shows that variance is 62.29 PSI, that is within requirements of not exceeding variance 100 PSI.
+We'll start with **ALL LOTS**.  The current manufacturing data meet this design specification for all manufacturing lots in total. According to the results (Figure 2) shows that 
+variance is 62.29 PSI, that is within requirements of not exceeding variance 100 PSI.
 
 <p align="center">
   <img width="400" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%202%20Summ%20Stats%20Susp%20Coils%20ALL%20Lots.jpg">
@@ -74,7 +77,9 @@ We'll start with **ALL LOTS**.  The current manufacturing data meet this design 
 Figure 2 - Summary Statistics on Suspension Coils for ALL LOTS
 </p>
 
-Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding variance 100 PSI. 
+Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results 
+below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding 
+variance 100 PSI. 
 Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceed the requirements variance of 100 PSI. Actually, Lot 3
 causes disproportionately the variance  at the full lot report level.     
 <p align="center">
@@ -94,10 +99,10 @@ First, we establish the following hypothesis:
 **HO**:  There **is no** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically similar).  
 **Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically different).  
 
-In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and its presumed population mean.   
+In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and 
+its presumed population mean.   
 
 Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis (we will accept the null hypothesis)**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
-
 
 <p align="center">
   <img width="650" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
@@ -109,17 +114,18 @@ Figure 4 - T-Test All Lots -Combined Total
 Next, we look at the individual lots.    
 
 According to the results below in Figure 5:   
-1.  Lot 1 has the same true sample mean of 1500 with a **p-value of 1**.  We will **accept the null hypotheseis** that there is no statistical difference bettween the observed sample mean and the presumed sample population mean of 1500.   
-2.  Lot 2 has the same results with a sample mean of 1500.2 a pvalue of .061.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are statistically similar.   
-3.  However, Lot 3, is different.  Here **the sample mean is 1496.14 and the p-value is .04**, which is lower than the **assumed significance level of .05**. For this report, we will **reject the null hypothesis**.    
-
+1.  Lot 1 has the same true sample mean of 1500 with a **p-value of 1**.  We will **accept the null hypotheseis** that there is no statistical difference bettween the observed 
+                 sample mean and the presumed sample population mean of 1500.   
+2.  Lot 2 has the same results with a sample mean of 1500.2 a pvalue of .061.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are 
+                 statistically similar.   
+3.  However, Lot 3, is different.  Here **the sample mean is 1496.14 and the p-value is .04**, which is lower than the **assumed significance level of .05**. For this report, we 
+                 will **reject the null hypothesis**.    
 <p align="center">
   <img width="400" height=600" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/figure%205%20all%20indiv%203%20lots%20.jpg">
 </p>
 <p align="center">
 Figure 5 - T-Test Lots - Individual 
 </p>
-
 
 # Deliverable #4 - 
 ## A new Study Design: MechaCar vs Competition ##
