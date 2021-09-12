@@ -135,20 +135,20 @@ Questions to be answered:
 Ideally, you would collect data for comparable models across all major manufacturers for past 3 years for the following metrics:
 -  MPG (Gasoline Efficiency): Independent Variable
 -  Current Price (Selling): Dependent Variable
+-  Average Annual Cost of ownership (Maintenance): Independent Variable
+-  Resale Value: Independent Variable
 -  Safety Feature Rating: Independent Variable
 -  Drive Package : Independent Variable
 -  Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
--  Resale Value: Independent Variable
 -  Average Annual Cost of ownership (Maintenance): Independent Variable
 
 Below is a Potential Hypothesis:
-
 **Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.**
 **Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.**
 
 Statistical Tests suited best for this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable)?
-
-Which combination has the greatest impact on price?  how many of them?    This is where I would start with the research and see where it leads us.    
+Which combination has the greatest impact on price?  how many of them?
+*This is where I would start with the research and see where it leads us.*   
 
 <p align="center">
    <img width="800" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/gear-wheels-gears-free-vector-hd-png.png">
