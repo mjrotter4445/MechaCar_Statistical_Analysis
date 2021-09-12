@@ -41,7 +41,7 @@ unlikely to provide random amounts of variance to the linear model, meaning that
 variables have a significant impact on mpg.  According to our results (figure 1) ground 
 clearance **p-value of 5.21**, vechicle length **p-value of 2.60** as well as 
 intercept **p-value of 5.08** provided a non-random amount of variance to the mpg 
-values in the dataset.  When an intercept is statistically significant, it means there 
+values in the dataset.  *When an intercept is statistically significant*, it means there 
 are other variables and factors that contribute to the variation in mpg that have not been 
 included in the model.  These variables may or may not be within our data set and may 
 still need to be collected or observed.  This can be a continuous research process or exploring if variables have relationships (as described in Module 15.7.3).     
@@ -50,9 +50,8 @@ still need to be collected or observed.  This can be a continuous research proce
 Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our **assumed significance level of 0.05%**. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype (from Module 15.7.2).
 
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared and p-value**. According to our results (below in
-Figure 1) **r-squared is 0.7149** (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively 
-predicts mpg of MechaCar prototypes (from Module 15.7.2).
+To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared value and p-value**. According to our results (below in
+Figure 1) **r-squared is 0.7149** (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model DOES effectively predict mpg of MechaCar prototypes (from Module 15.7.2).  Also,  the 3 *** indicator to the right of Intercept is an indicator that more than one independent variable impacts the variable of mpg.  
 <p align="center">
   <img width="550" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%201%20Linear%20Regress%20Results.jpg">
 </p>
@@ -72,7 +71,7 @@ We'll start with **ALL LOTS**.  The current manufacturing data meet this design 
   <img width="400" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%202%20Summ%20Stats%20Susp%20Coils%20ALL%20Lots.jpg">
 </p>
 <p align="center">
-Figure 2 - Summary Statistics on Suspension Coils for ALL Lots
+Figure 2 - Summary Statistics on Suspension Coils for ALL LOTS
 </p>
 
 Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding variance 100 PSI. 
