@@ -70,7 +70,8 @@ Figure 2 - Summary Statistics on Suspension Coils for ALL Lots
 </p>
 
 Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding variance 100 PSI. 
-Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceed the requirements variance of 100 PSI.
+Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceed the requirements variance of 100 PSI. Actually, Lot 3
+causes disproportionately the variance  at the full lot report level.     
 <p align="center">
   <img width="500" height=225" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%203%20summ%20stats%20Susp%20Coils%20for%20each%20lot%20individually.jpg">
 </p>
