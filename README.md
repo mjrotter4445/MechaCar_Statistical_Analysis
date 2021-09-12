@@ -20,14 +20,18 @@ For this project we are performing statistical testing in programming language R
 ## Linear Regression to Predict MPG ## 
 
 ### **The Statistical question** ### 
-There are mpg test results for 50 prototype MechaCars.   Multiple design specifications to identify ideal vehicle performance such as vehicle length, vehicle weight, spoiler angel, drivetrain, and ground clearance, were collected for each vehicle.    
-With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vehicle length in our case) in the dataset predict the mpg of MechaCar prototypes.  
+We have available to us the mpg test results for 50 prototype MechaCars.   Included in this data set we have multiple design specifications to identify ideal vehicle 
+performance such as vehicle length, vehicle weight, spoiler angel, drivetrain, and ground clearance, were collected for each vehicle.    
+With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vehicle length, in our case) in the dataset 
+predict the mpg of MechaCar prototypes.  
 **What are the relationships between variables and mpg of MechCar prototypes?**  
 
-### **Null Hypothesis and alternative hypothesis for linear regression** ###
-With multiple linear regression model, we are establishing the following hypotheses:  
+### **Null Hypothesis(HO) and Alternative Hypothesis (Ha) for Linear Regression** ###
+With multiple linear regression model, we are establishing the following hypothesis:  
+
 **HO**:  the slope of the linear model is zero or m = -0 (if there is no significant linear relationship, each dependent value would be determined by random chance and error.  Therefore, our linear model would be a flat line with a slope of 0).  
-**Ha**: The Slope of the linear model is not zero or m not equal to 0 (If there is a significant linear relationship, each dependent value would not be determined by random change and error.  therefore, our linear model would not be a flat line with a slope greater or lessser than 0.   
+**Ha**: The slope of the linear model is not zero or m not equal to 0 (If there is a significant linear relationship, each dependent value would not be determined by 
+random chance and error.  Therefore, our linear model would not be a flat line with a slope greater or lessser than 0.   
 
 **1.  Which variables/coefficients provided a non-random amount of variance to the mpg values in the data set?**
 
@@ -35,8 +39,8 @@ To determine which variables, provide a non-random amount of variance to the mpg
 have to look at their individual **p-value**.  If the **p-value** is below 0.05 is statistically 
 unlikely to provide random amounts of variance to the linear model, meaning that those 
 variables have a significant impact on mpg.  According to our results (figure 1) ground 
-clearance (**p-value** = 5.21 x 10-8), vechicle length (**p-value** = 2.60 x 10-12) as well as 
-intercept (**p-value** = 5.08 x 10-8) provided a non-random amount of variance to the mpg 
+clearance **p-value of 5.21**, vechicle length **p-value of 2.60** as well as 
+intercept **p-value of 5.08** provided a non-random amount of variance to the mpg 
 values in the dataset.  When an intercept is statistically significant, it means there 
 are other variables and factors that contribute to the variation in mpg that have not been 
 included in the model.  These variables may or may not be within our data set and may 
