@@ -150,8 +150,8 @@ Statistical Tests suited best for this task would be a multiple linear regressio
 
 <p align="center">
    <img width="800" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/gear-wheels-gears-free-vector-hd-png.png">
-</p>">
 </p>
+
 
 
 Graphics Sources:  
