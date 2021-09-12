@@ -64,11 +64,11 @@ Figure 1 - Linear Regression Results
 # Deliverable #2
 ## Summary Statistics on Suspension Coils ## 
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils *must not exceed 100 pounds per square inch*. 
 **Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
-We'll start with **ALL LOTS**.  The current manufacturing data meet this design specification for all manufacturing lots in total. According to the results (Figure 2) shows that 
-variance is 62.29 PSI, that is within requirements of not exceeding variance 100 PSI.
+We'll start with **ALL LOTS**.  The current manufacturing data meets this design specification for all manufacturing lots in total. According to the results (Figure 2) shows that 
+variance is 62.29 PSI and that is within requirements of not exceeding variance 100 PSI.
 
 <p align="center">
   <img width="400" height=100" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%202%20Summ%20Stats%20Susp%20Coils%20ALL%20Lots.jpg">
@@ -80,8 +80,8 @@ Figure 2 - Summary Statistics on Suspension Coils for ALL LOTS
 Next, we'll drill down to the **individual lots**.   The current manufacturing data partially meet this design specification for each lot separately. According to the results 
 below (Figure 3), it shows that Lot 1 (variance of .97 PSI) and Lot 2 (variance 7.46 PSI) meet the design specification with and both are within requirements of not exceeding 
 variance 100 PSI. 
-Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceed the requirements variance of 100 PSI. Actually, Lot 3
-causes disproportionately the variance  at the full lot report level.     
+Unfortunately, Lot 3 does not meet the design specification, (because of its variance of 170.28 PSI) and that exceeds the requirements variance of 100 PSI. Actually, Lot 3
+causes disproportionately the variance at the full lot report level. This is described in more detail later in the study.    
 <p align="center">
   <img width="500" height=225" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%203%20summ%20stats%20Susp%20Coils%20for%20each%20lot%20individually.jpg">
 </p>
@@ -99,7 +99,7 @@ First, we establish the following hypothesis:
 **HO**:  There **is no** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically similar).  
 **Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically different).  
 
-In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and 
+In order to reject of fail to reject our null hypothesis we have to look at the **p-value** that determines if there is a statistical difference between the observed sample mean and 
 its presumed population mean.   
 
 Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis (we will accept the null hypothesis)**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
