@@ -146,7 +146,7 @@ Below is a Potential Hypothesis:
 **Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.**
 **Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.**
 
-Statistical Tests suited best for this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable).    
+The statistical tests best suited to this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable).    
 We could start with the following question: 
 -   Which combination has the greatest impact on price?  how many of them?
 
