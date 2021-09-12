@@ -149,6 +149,7 @@ Below is a Potential Hypothesis:
 Statistical Tests suited best for this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable).    
 We could start with the following question: 
 -   Which combination has the greatest impact on price?  how many of them?
+
 *This is where I would start with the research and see where it leads us.*   
 
 <p align="center">
