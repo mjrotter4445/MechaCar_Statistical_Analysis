@@ -101,7 +101,7 @@ Figure 4 - T-Test All Lots -Combined Total
 
 Next, we look at the individual lots.    
 
-According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .60, and for lot 3 = 0.04. In only 2 cases **p-value** is above the assumed significance level of 0.05. Unfortunately, lot 3 sample mean is lower than the **assumed significance level of .05**. 
+According to the results below in Figure 5:   
 1.  Lot 1 has the same true sample mean of 1500 with a **p-value of 1**.  We will **accept the null hypotheseis** that there is no statistical difference bettween the observed sample mean and the presumed sample population mean of 1500.   
 2.  Lot 2 has the same results with a sample mean of 1500.2 a pvalue of .061.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are statistically similar.   
 3.  However, Lot 3, is different.  Here **the sample mean is 1496.14 and the p-value is .04**, which is lower than the **assumed significance level of .05**. For this report, we will **reject the null hypothesis**.    
