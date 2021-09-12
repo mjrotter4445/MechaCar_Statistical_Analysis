@@ -84,12 +84,12 @@ Figure 3 - Summary Statistics on Suspension Coils for Each Lot Individually 1, 2
 
 Below we will perform one-sample t-test, that is used to **determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI**.  First we establish the following hypothesis:  
 
-**HO**:  There **is no** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI.  
-**Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI.  
+**HO**:  There **is no** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically similar).  
+**Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI (they are statistically different).  
 
 In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and its presumed population mean.   
 
-Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
+Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis (we will accept the null hypothesis)**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
 
 
 <p align="center">
