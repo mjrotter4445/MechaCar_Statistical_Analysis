@@ -43,7 +43,7 @@ included in the model.  These variables may or may not be within our data set an
 still need to be collected or observed.  This can be a continuous research process or exploring if variables have relationships (as described in Module 15.7.3).     
 
 **2.  Is the slope of the linear model considered to be zero? Why or why not?**
-Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype (from Module 15.7.2).
+Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our **assumed significance level of 0.05%**. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype (from Module 15.7.2).
 
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its r-squared and p-value. According to our results (Figure 1) r-squared is 0.7149 (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
