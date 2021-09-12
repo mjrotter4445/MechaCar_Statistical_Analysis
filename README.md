@@ -157,6 +157,7 @@ Ideally, you would collect data for comparable models across all major manufactu
 -  Average Annual Cost of ownership (Maintenance): Independent Variable
 
 Below is a Potential Hypothesis:
+**Null Hypothesis(HO) and Alternative Hypothesis (Ha)**
 **HO**:  MechaCar is priced correctly based on its performance of key factors for its genre.
 **Ha** : MechaCar is NOT priced correctly based on performance of key factors for its genre.
 
