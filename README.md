@@ -115,7 +115,7 @@ Figure 5 - T-Test Lots - Individual
 
 
 # Deliverable #4 - 
-## a new Study Design: MechaCar vs Competition ##
+## A new Study Design: MechaCar vs Competition ##
 Deliverable Requirements:
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
