@@ -157,8 +157,8 @@ Ideally, you would collect data for comparable models across all major manufactu
 -  Average Annual Cost of ownership (Maintenance): Independent Variable
 
 Below is a Potential Hypothesis:
-**Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.**
-**Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.**
+**HO**:  MechaCar is priced correctly based on its performance of key factors for its genre.
+**Ha** : MechaCar is NOT priced correctly based on performance of key factors for its genre.
 
 The statistical tests best suited to this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable).    
 We could start with the following question: 
