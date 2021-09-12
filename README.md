@@ -148,7 +148,10 @@ Below is a Potential Hypothesis:
 
 Statistical Tests suited best for this task would be a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be more than one of them or all of them).   This is where I would start with the research and see where it leads us.    
 
-
+<p align="center">
+   <img width="800" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/figure%205%20all%20indiv%203%20lots%20.jpg">
+</p>">
+</p>
 
 
 
