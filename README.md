@@ -82,7 +82,7 @@ Figure 3 - Summary Statistics on Suspension Coils for Each Lot Individually 1, 2
 # Deliverable #3 - 
 ## T-Tests on Suspension Coils ##
 
-Below we will perform one-sample t-test, that is used to determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI. With the t-test, we define the following hypothesis:
+Below we will perform one-sample t-test, that is used to **determine whether there is a statistical difference between the means of a sample dataset (suspension coil data set) and a population dataset with a given mean of 1,500 PSI**. With the t-test, we first define the following hypothesis:
 
 H0: There is no statistical difference between the suspension coil data set mean and its presumed population mean of 1,500 PSI.
 
