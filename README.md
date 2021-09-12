@@ -63,7 +63,7 @@ independent variable impacts the variable of mpg.
 Figure 1 - Linear Regression Results
 </p>
 
-# Deliverable #2
+# Deliverable #2 -
 ## Summary Statistics on Suspension Coils ## 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils *must not exceed 100 pounds per square inch*. 
