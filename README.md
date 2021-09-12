@@ -34,7 +34,6 @@ With multiple linear regression model, we are establishing the following hypothe
 random chance and error.  Therefore, our linear model would not be a flat line with a slope greater or lessser than 0.   
 
 **1.  Which variables/coefficients provided a non-random amount of variance to the mpg values in the data set?**
-
 To determine which variables, provide a non-random amount of variance to the mpg value we 
 have to look at their individual **p-value**.  If the **p-value** is below 0.05 is statistically 
 unlikely to provide random amounts of variance to the linear model, meaning that those 
@@ -47,13 +46,16 @@ included in the model.  These variables may or may not be within our data set an
 still need to be collected or observed.  This can be a continuous research process or exploring if variables have relationships (as described in Module 15.7.3).     
 
 **2.  Is the slope of the linear model considered to be zero? Why or why not?**
-Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our **assumed significance level of 0.05%**. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype (from Module 15.7.2).
+Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our **assumed significance level of 0.05%**. Therefore, we can state that there is 
+sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between 
+variables and mpg of MechaCar prototype (from Module 15.7.2).
 
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared value and p-value**. According to our results (below in
 Figure 1) **r-squared is 0.7149** (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model DOES 
 effectively predict mpg of MechaCar prototypes (from Module 15.7.2).  Also,  the 3 *** indicator to the right, on the Intercept is an significance indicator that more than one 
 independent variable impacts the variable of mpg.  
+
 <p align="center">
   <img width="550" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%201%20Linear%20Regress%20Results.jpg">
 </p>
