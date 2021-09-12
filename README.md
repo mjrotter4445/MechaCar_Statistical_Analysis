@@ -88,22 +88,22 @@ Below we will perform one-sample t-test, that is used to **determine whether the
 **Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI.  
 In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and its presumed population mean.   
 
-Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the true mean is 1498.78.  This combined with a **p-value of .06**, which is higher thaan the common significance level of 0.05m there **is NOT enough evidence to support rejecting the null hypothesis**.   In other words, the mean of all three of these manufacturing lots, combined,  **is** statistically similar to the presumed population mean of 1500.   
+Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
 
 
 <p align="center">
   <img width="650" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
 </p>
 <p align="center">
-Figure 4 - T-Test All Lots - Total
+Figure 4 - T-Test All Lots -Combined Total
 </p>
 
 Next, we look at the individual lots.    
 
-According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .60, and for lot 3 = 0.04. In only 2 cases **p-value** is above the assumed significance level of 0.05. Unfortunately, lot 3 sample mean is lower than the **common significance level of .05**. 
-1.  Lot 1 has the same true sample mean of 1500 with a **p-value of 1**.  We will accept the null hypotheseis that there is no statistical difference bettween the observed sample mean dn the presumed sample population mean of 1500.   
-2.  Lot 2 has the same results with a sample mean of 1500.2 a pvalue of ..061.  Therefore, the null hypotesis cannot be rejected and the sample mean of 1500 are statistically similar.   
-3.  However, Lot 3, is different.  Here **the sample mean is 1496.14 and the **p-value is .04**, which is lower than the **assumed significance level of .05**. 
+According to the result (Figure 4) **p-value** for all manufacturing lots is 0.5117, for lot 1 = 1.00, for lot 2 = .60, and for lot 3 = 0.04. In only 2 cases **p-value** is above the assumed significance level of 0.05. Unfortunately, lot 3 sample mean is lower than the **assumed significance level of .05**. 
+1.  Lot 1 has the same true sample mean of 1500 with a **p-value of 1**.  We will **accept the null hypotheseis** that there is no statistical difference bettween the observed sample mean and the presumed sample population mean of 1500.   
+2.  Lot 2 has the same results with a sample mean of 1500.2 a pvalue of .061.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are statistically similar.   
+3.  However, Lot 3, is different.  Here **the sample mean is 1496.14 and the p-value is .04**, which is lower than the **assumed significance level of .05**. For this report, we will **reject the null hypothesis**.    
 
 <p align="center">
   <img width="400" height=600" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/figure%205%20all%20indiv%203%20lots%20.jpg">
