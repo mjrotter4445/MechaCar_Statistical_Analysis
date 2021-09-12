@@ -117,9 +117,8 @@ Next, we look at the individual lots.
 
 According to the results below in Figure 5:   
 1.  **Lot 1** has the same true sample mean of 1500 with a **p-value of 1**.  We will **accept the null hypotheseis** that there is no statistical difference bettween the observed 
-                 sample mean and the presumed sample population mean of 1500.   
-2.  **Lot 2** has the same results with a sample mean of 1500.2 a pvalue of .061.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are 
-                 statistically similar.   
+sample mean and the presumed sample population mean of 1500.   
+2.  **Lot 2** has the same results with a sample mean of 1500.2 a **p-value of .061**.  Therefore, again, we will **accept the null hypothesis** because the sample mean of 1500 are statistically similar.   
 3.  However, **Lot 3**, is different.  Here **the sample mean is 1496.14 and the p-value is .04**, which is lower than the **assumed significance level of .05**. For this report, 
 we will **reject the null hypothesis**.    
 <p align="center">
