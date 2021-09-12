@@ -86,6 +86,7 @@ Below we will perform one-sample t-test, that is used to **determine whether the
 
 **HO**:  There **is no** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI.  
 **Ha**: There **is** statistical difference between the suspension coil data set mean and its presumed population mean of 1500 PSI.  
+
 In order to reject of fail to reject our null hypothesis we have to look at the p-value that determines if there is a statistical difference between the observed sample mean and its presumed population mean.   
 
 Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the **true mean is 1498.78**.  This combined with a **p-value of .06**, which is higher than the **assumed significance level of 0.05** there **is NOT enough evidence to support rejecting the null hypothesis**.   In other words, the mean of all three of these manufacturing lots, combined,  **is statistically similar to the presumed population mean of 1500**.   
