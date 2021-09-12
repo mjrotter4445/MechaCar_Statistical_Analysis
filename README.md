@@ -46,7 +46,7 @@ still need to be collected or observed.  This can be a continuous research proce
 Based on our results (Figure 1) **p-value** is 5.35 x 10-11, which is much smaller than our **assumed significance level of 0.05%**. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype (from Module 15.7.2).
 
 **3.  Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its r-squared and p-value. According to our results (Figure 1) r-squared is 0.7149 (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
+To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its r-squared and p-value. According to our results (Figure 1) r-squared is 0.7149 (and adjusted r-squared is 0.68) and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (from Module 15.7.2).
 <p align="center">
   <img width="550" height=400" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%201%20Linear%20Regress%20Results.jpg">
 </p>
@@ -118,19 +118,16 @@ Figure 5 - T-Test Lots - Individual
 
 
 # Deliverable #4 - 
-NEED MORE IDEAS HERE -  work on this part NEXT 
-
-
 Study Design: MechaCar vs Competition
 Deliverable Requirements:
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 The statistical study design has the following:
 
-A metric to be tested is mentioned
-A null hypothesis or an alternative hypothesis is described
-A statistical test is described to test the hypothesis
-This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
+        A metric to be tested is mentioned
+        A null hypothesis or an alternative hypothesis is described
+        A statistical test is described to test the hypothesis
+        This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
 
 What are the competitions' comparable models,
 Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
