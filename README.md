@@ -126,11 +126,11 @@ The statistical study design has the following:
 -  This study would involve collecting **data on MechaCar** and **data from comparable models across several different manufacturers over the last 3 years**.
 
 Questions to be answered:   
-What are the competitions' comparable models?
-Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
-Which factors will look at the study to determine the relevant to selling price?
-What Metrics are important to the genre that MechCar is marketing too?   
-What Metrics are available?  
+1.  What are the competitions' comparable models?
+2.  Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
+3.  Which factors will look at the study to determine the relevant to selling price?
+4.  What Metrics are important to the genre that MechCar is marketing too?   
+5.  What Metrics are available?  
 
 Ideally, you would collect data for comparable models across all major manufacturers for past 3 years for the following metrics:
 -  MPG (Gasoline Efficiency): Independent Variable
