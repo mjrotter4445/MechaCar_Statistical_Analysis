@@ -123,11 +123,11 @@ Deliverable Requirements:
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 The statistical study design has the following:
-
-        A metric to be tested is mentioned
-        A null hypothesis or an alternative hypothesis is described
-        A statistical test is described to test the hypothesis
-        This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
+-  *MechaCar_mpg.csv*
+-  A metric to be tested is mentioned
+-   A null hypothesis or an alternative hypothesis is described
+-   A statistical test is described to test the hypothesis
+-   This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
 
 What are the competitions' comparable models,
 Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
