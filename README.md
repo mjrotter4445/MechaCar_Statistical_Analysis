@@ -144,11 +144,13 @@ Ideally, you would collect data for comparable models across all major manufactu
 Hypothesis: Null and Alternative
 After determining which factors are key (and data is available for or can be collected) for the MechaCar's genre:
 
-Potential Hypothesis: 
-Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
-Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+Potential Hypothesis:
+
+**Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
+Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.**
+
 Statistical Tests
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be all of them!)
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be more than one of them or all of them)
 
 
 
