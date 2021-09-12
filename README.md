@@ -108,7 +108,7 @@ Across all manufacturing lots, 1, 2, and 3 combined, we can see below that the *
   <img width="650" height=200" src="https://github.com/mjrotter4445/MechaCar_Statistical_Analysis/blob/main/Graphics/fig%204%20first%20one%20t-test%20Lot%20all.jpg ">
 </p>
 <p align="center">
-Figure 4 - T-Test All Lots -Combined Total
+Figure 4 - T-Test ALL LOTS -Combined Total
 </p>
 
 Next, we look at the individual lots.    
