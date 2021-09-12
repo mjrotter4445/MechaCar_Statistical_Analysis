@@ -113,9 +113,6 @@ According to the results below in Figure 5:
 Figure 5 - T-Test Lots - Individual 
 </p>
 
- 
-
-
 
 # Deliverable #4 - 
 Study Design: MechaCar vs Competition
@@ -123,28 +120,31 @@ Deliverable Requirements:
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 The statistical study design has the following:
--  *MechaCar_mpg.csv*
--  A metric to be tested is mentioned
--   A null hypothesis or an alternative hypothesis is described
--   A statistical test is described to test the hypothesis
--   This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
+-  A **metric** to be tested is described and defined 
+-  A null **hypothesis and an alternative hypothesis** is described
+-  A **statistical test** is described to test the hypothesis
+-  This study would involve collecting **data on MechaCar** and **data from comparable models across several different manufacturers over the last 3 years**.
 
-What are the competitions' comparable models,
+Questions to be answered:   
+What are the competitions' comparable models?
 Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
 Which factors will look at the study to determine the relevant to selling price?
-Metrics
-Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
+What Metrics are important to the genre that MechCar is marketing too?   
+What Metrics are available?  
 
-Safety Feature Rating: Independent Variable
-Current Price (Selling): Dependent Variable
-Drive Package : Independent Variable
-Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
-Resale Value: Independent Variable
-Average Annual Cost of ownership (Maintenance): Independent Variable
-MPG (Gasoline Efficiency): Independent Variable
+Ideally, you would collect data for comparable models across all major manufacturers for past 3 years for the following metrics:
+-  MPG (Gasoline Efficiency): Independent Variable
+-  Current Price (Selling): Dependent Variable
+-  Safety Feature Rating: Independent Variable
+-  Drive Package : Independent Variable
+-  Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+-  Resale Value: Independent Variable
+-  Average Annual Cost of ownership (Maintenance): Independent Variable
+
 Hypothesis: Null and Alternative
-After determining which factors are key for the MechaCar's genre:
+After determining which factors are key (and data is available for or can be collected) for the MechaCar's genre:
 
+Potential Hypothesis: 
 Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
 Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
 Statistical Tests
